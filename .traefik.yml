@@ -1,0 +1,7 @@
+displayName: Traefik Request Logger
+type: middleware
+import: github.com/lakshanwd/traefikrequestlogger
+summary: Logs the requests to the access log file.
+testData:
+  path: /var/log/traefik/access.log
+  interval: 3s
